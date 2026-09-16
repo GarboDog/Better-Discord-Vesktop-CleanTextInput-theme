@@ -1,0 +1,60 @@
+/**
+ * @name CleanTextInput v1.2
+ * @description Hides the annoying buttons from the message box and the annoying buttons in direct messages on the top. Use CTRL+E for emotes, CTRL+S for stickers, CTRL+G for Gifs. Recomend enabling "Show Send Message button" in discord settings.
+ * @version 1.2
+ * @author https://garbodog.nekoweb.org/
+ */
+
+:root {
+    --theme-version: "1.2";
+}
+
+div[aria-label="Send a gift"],
+div[aria-label*="Send a gift"],
+.button__74017[aria-label="Send a gift"] {
+    display: none !important;
+}
+
+/* app launcher */
+.buttonContainer_e6e74f{
+    display:none;
+}
+
+.expression-picker-chat-input-button.buttonContainer__74017,
+.channelAppLauncher_e6e74f {
+    display: none !important;
+}
+
+/* Nitro button*/
+ul.content_d125d2 > div:nth-child(3) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1){
+    display: none;
+}
+
+/* Shop button */
+li.channel__972a0:nth-child(4){
+    display: none;
+}
+
+/* Quests Button */
+.wrapper__553bf{
+    display: none;
+}
+
+/*  */divider between friends button and DMs
+.sectionDivider_e6b769{
+    background-color: black !important;
+    height: 0px;
+}
+
+/* hides the top bar of discord, uncomment this
+and disable the window frame in Vencord settings to use the default system
+window frame instead and not have this extra window frame */
+/*.appMount__51fd7{
+    margin-top: -32px;
+    height: calc(100vh + 32px);
+}*/
+
+/* Discovery icon at the bottom of the server list */
+.discoveryIcon_ef3116{
+    display: none;
+}
