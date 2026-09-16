@@ -1,0 +1,21 @@
+/**
+ * @name CleanTextInput v1.1
+ * @description Hides the annoying buttons from the message box. Use CTRL+E for emotes, CTRL+S for stickers, CTRL+G for Gifs. Recomend enabling "Show Send Message button" in discord settings.
+ * @version 1.1
+ * @author neocities.garbodog.com
+ */
+
+:root {
+    --theme-version: "1.1";
+}
+
+div[aria-label="Send a gift"],
+div[aria-label*="Send a gift"],
+.button__74017[aria-label="Send a gift"] {
+    display: none !important;
+}
+
+.expression-picker-chat-input-button.buttonContainer__74017,
+.channelAppLauncher_e6e74f {
+    display: none !important;
+}
