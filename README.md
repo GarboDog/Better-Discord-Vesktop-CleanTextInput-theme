@@ -9,9 +9,9 @@ Required: Better Discord or Vesktop, the most up to date .css file
 
 How to: Themes > Open themes folder > put the .css file in there, refresh themes and enable.
 
-Line 58 where .appMount__51fd7 is, that's what pushes and resizes discord for the top bar to be hidden. If you want to disable that, just comment or delete that section. 🐶👍
+Optionally disable Discord's default Top-Bar, Remove the divider between beg buttons to DMS, and hide the Pin icons 🐶👍
 
 ![Removal of Nitro, Quest and Shop buttons](https://i.imgur.com/amuCH5h.png)
 ![Romoval of the top bar when using native window frame](https://i.imgur.com/R6aptO2.png)
 
-Please forgive the messy code haha, we also update this as often as possible whenever we notice any issues on our client, but if you notice any issues on your end and have a fix for em, throw them into pull-request and we'll update with credit to ya! :3 
+Please forgive the messy code haha, we also update this as often as possible whenever we notice any issues on our client, but if you notice any issues on your end and have a fix for em, throw them into issues and we'll update with credit to ya! :3 
