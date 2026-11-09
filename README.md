@@ -3,7 +3,7 @@ Better Discord/Vesktop Theme aimed towards removing annoying things and nitro be
 
 ![Removal of the emoji, gif, gift nitro buttons in the chat text bar](https://i.imgur.com/ZgWw4l3.png)
 
-Most recent of [Clean Text Input Version 1.5](https://github.com/GarboDog/Better-Discord-Vesktop-CleanTextInput-theme/blob/main/CleanTextInput.theme%20v1.5.css)
+Most recent of [Clean Text Input Version 1.6](https://github.com/GarboDog/Better-Discord-Vesktop-CleanTextInput-theme/blob/main/CleanTextInput.theme%20v1.6.css)
 
 Required: Better Discord or Vesktop, the most up to date .css file
 
