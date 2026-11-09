@@ -1,0 +1,91 @@
+/*
+ * @name CleanTextInput v1.7
+ * @description Hides the annoying buttons from the message box and the annoying buttons in direct messages on the top. Use CTRL+E for emotes, CTRL+S for stickers, CTRL+G for Gifs. Recomend enabling "Show Send Message button" in discord settings.
+ * @version 1.7
+ * @author https://garbodog.nekoweb.org/
+ */
+
+:root {
+    --theme-version: "1.7";
+}
+
+/* == Optionals == */
+
+/* = Top-Bar of Discord = */
+/* uncomment base_pog62O to hide the
+ * discord window frame in Vencord settings to use the default system
+ * window frame instead and not have this extra window frame */
+/*.base_pog62O{
+    margin-top: -25px;
+}*/
+
+/* = Divider between beg buttons and DMs = */
+/* uncomment the following to hide the divider */
+/*.sectionDivider_u88IQl{
+    display:none;
+ }*/
+
+/* = DM Pin Icons = */
+/* uncomment the following to unhide the pin icons */
+/* (wishlist to make smaller in bottom right instead) */
+/*.favoriteIcon_zln_tS{
+    display:none;
+}*/
+
+
+/* == Chat Buttons == */
+
+/* = Gift Button = */
+.container_ejC3ZL{
+    display:none;
+}
+/* = Preview Button = */
+div.expression-picker-chat-input-button:nth-child(1){
+    display:none;
+}
+/* = Sticker Button = */
+div.expression-picker-chat-input-button:nth-child(4){
+    display:none;
+}
+div.expression-picker-chat-input-button:nth-child(6){
+    display:none;
+}
+/* = Emoji Button = */
+div.expression-picker-chat-input-button:nth-child(5){
+    display:none;
+}
+div.expression-picker-chat-input-button:nth-child(7){
+    display:none;
+}
+/* = App Button = */
+.buttonContainer_s8hOwn{
+    display:none;
+}
+
+
+/* == Server Boost Beggers == */
+
+/* = Server Boost Goal Begger = */
+.container_BFMMcK{
+    display:none;
+}
+/* = Server Boost Button Beg = */
+.container_QSrt0b{
+    display:none;
+}
+
+
+/* == Home Beg Buttons == */
+
+/* = Nitro Button = */
+ul.content_tqapBM > div:nth-child(3){
+    display:none;
+}
+/* = Shop Button = */
+li.channel_zln_tS:nth-child(4){
+    display:none;
+}
+/* = Quest Button = */
+.wrapper_hjotnx{
+    display:none;
+}
