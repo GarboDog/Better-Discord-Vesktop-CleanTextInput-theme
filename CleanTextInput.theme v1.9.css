@@ -1,0 +1,203 @@
+/**
+ * @name CleanTextInput v1.9
+ * @author GarboDog
+ * @version 1.9
+ * @description Hide annoying buttons and ads in discord
+ * @source https://github.com/GarboDog/Better-Discord-Vesktop-CleanTextInput-theme
+ * @invite yQkqc39NCq
+ * @site https://garbodog.nekoweb.org/
+ */
+
+
+/*       ███  ████  █████ █████  ███  █   █ █████
+        █   █ █   █   █     █   █   █ ██  █ █
+        █   █ ████    █     █   █   █ █ █ █ █████
+        █   █ █       █     █   █   █ █  ██     █
+         ███  █       █   █████  ███  █   █ █████
+                                                       */
+
+:root {
+    /* clean text options                              */
+    --gift_button: none; /*               block - none */
+    --gif_button: none; /*                block - none */
+    --sticker_button: none; /*            block - none */
+    --emoji_button: none; /*              block - none */
+    --app_button: none; /*                block - none */
+
+    /* Beg buttons */
+    --home_nitro_btn: block; /*           block - none */
+    --home_shop_btn: block; /*            block - none */
+    --home_quest_btn: block; /*           block - none */
+    --divider_btwn_begs_and_DMs: block; /*block - none */
+    --discover_button: block; /*          block - none */
+    --activity_begs: block; /*            block - none */
+    --server_boost_goal: block; /*        block - none */
+    --server_boost_btn: block; /*         block - none */
+    --srv_inv_icn: block; /*              block - none */
+
+    /* Optional etc fixes                              */
+    --show_topbar: 0; /*                         0 - 1 */
+    --dm_pin_icons: block; /*             block - none */
+    --srv_dropdown_icn: block; /*         block - none */
+    --srv-notification-icn: flex; /*       flex - none */
+    --quest_page: block; /*               block - none */
+    --quest_bg: url("https://i.imgur.com/ZWEjrsK.png");
+}
+
+
+/*                ████ █   █  ███  █████
+                 █     █   █ █   █   █
+                 █     █████ █████   █
+                 █     █   █ █   █   █
+                  ████ █   █ █   █   █
+
+        ████  █   █ █████ █████  ███  █   █ █████
+        █   █ █   █   █     █   █   █ ██  █ █
+        ████  █   █   █     █   █   █ █ █ █ █████
+        █   █ █   █   █     █   █   █ █  ██     █
+        ████  █████   █     █    ███  █   █ █████      */
+
+/* = Gift Button = */
+.container_ejC3ZL{
+    display:var(--gift_button);
+}
+}/* = GIF Button = */
+div.expression-picker-chat-input-button:nth-child(2){
+    display:var(--gif_button);
+}
+div.expression-picker-chat-input-button:nth-child(2) > div:nth-child(1){
+    display:var(--gif_button);
+}
+div.expression-picker-chat-input-button:nth-child(1){
+    display:var(--gif_button);
+}
+div.expression-picker-chat-input-button:nth-child(7){
+    display:var(--gif_button);
+}
+/* = Sticker Button = */
+div.expression-picker-chat-input-button:nth-child(4){
+    display:var(--sticker_button);
+}
+div.expression-picker-chat-input-button:nth-child(6){
+    display:var(--sticker_button);
+}
+/* = Emoji Button = */
+div.expression-picker-chat-input-button:nth-child(5){
+    display:var(--emoji_button);
+}
+div.expression-picker-chat-input-button:nth-child(7){
+    display:var(--emoji_button);
+}
+/* = App Button = */
+.buttonContainer_s8hOwn{
+    display:var(--app_button);
+}
+
+
+/*            ████  ███  ████  ████   ███
+             █     █   █ █   █ █   █ █   █
+             █     █   █ ████  ████  █   █
+             █     █   █ █   █ █     █   █
+              ████  ███  █   █ █      ███
+
+       ████  █████  ████  ████ █████ █   █  ████
+       █   █ █     █     █       █   ██  █ █
+       ████  ████  █  ██ █  ██   █   █ █ █ █  ██
+       █   █ █     █   █ █   █   █   █  ██ █   █
+       ████  █████  ███   ███  █████ █   █  ███        */
+
+/* == Server Boost Beggers ==                          */
+/* = Server Boost Goal Begger =                        */
+.container_BFMMcK{
+    display:var(--server_boost_goal);
+}
+/* = Server Boost Button Beg =                         */
+.container_QSrt0b{
+    display:var(--server_boost_btn);
+}
+
+/* == Home Beg Buttons ==                              */
+/* = Nitro Button =                                    */
+ul.content_tqapBM > div:nth-child(3){
+    display:var(--home_nitro_btn);
+}
+/* = Shop Button =                                     */
+li.channel_zln_tS:nth-child(4){
+    display:var(--home_shop_btn);
+}
+/* = Quest Button =                                    */
+.wrapper_hjotnx{
+    display:var(--home_quest_btn);
+}
+/* = Divider between beg buttons and DMs =             */
+.sectionDivider_u88IQl{
+    display:var(--divider_btwn_begs_and_DMs);
+}
+
+/* == Activity in member list == */
+.container_g7esM5{
+    display:var(--activity_begs);
+}
+h3:has(> div > div[aria-label="Member List Recent Activity Settings"]){
+    display: var(--activity_begs) !important;
+}
+
+/* == Discover button in server list bar ==            */
+#app-mount > div.appAsidePanelWrapper_YRXZu0 > div > div.app_YRXZu0 > div > div.layers_Fd0FEH.layers_QbT-Jy > div > div > div > div.content_pog62O > div.sidebar_pog62O.theme-light.images-light > nav > div.tree_5dqHTG > div > div:nth-child(7) > span > div > div{
+    display:var(--discover_button);
+}
+
+
+/*█████ █████  ████      █████ █████ █   █ █████ █████
+  █       █   █          █       █    █ █  █     █
+  ████    █   █          ████    █     █   ████  █████
+  █       █   █          █       █    █ █  █         █
+  █████   █    ████      █     █████ █   █ █████ █████ */
+
+/* == Top-Bar of Discord ==                            */
+/* frame in Vencord settings to use the default system */
+/* window frame instead and not have this extra window */
+/* frame                                               */
+.base_pog62O{
+    margin-top: calc(-25px * var(--show_topbar));
+}
+
+/* == DM Pin Icons ==                                  */
+/* (wishlist to make smaller in bottom right instead)  */
+.favoriteIcon_zln_tS{
+    display:var(--dm_pin_icons);
+}
+
+/* == Hide quest page ==                               */
+/* Made this because discord decided to start making   */
+/* the first opened page of discord to be a blast of   */
+/* fucking shitty ads, and we hated that. So we set    */
+/* this up so you get a new welcome background instead.*/
+/* Though by default its the missing texture for now   */
+/* because thats the ammount of bullshit quality that  */
+/* discord brings to the table. TO-DO make a custom    */
+/* welcome BG. Till then you can set up your own bg    */
+.container_ZTJWQo{
+    display:var(--quest_page);
+}
+/* This replace quest's blank page caused by the above */
+/* option with a background and honesly much better    */
+/* than ads the ads they trow in our face              */
+.page_pog62O{
+    background:var(--quest_bg);
+}
+
+/* == server invite icon ==                            */
+.inviteButton_XH4OpX{
+    display:var(--srv_inv_icn);
+}
+
+/* == server name dropdown icon ==                     */
+.headerChildren_XH4OpX{
+    display:var(--srv_dropdown_icn);
+}
+
+/* == Channel top bar notification settings ==         */
+[aria-label="Notification Settings"]{
+    display:var(--srv-notification-icn) !important;
+}
